@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CWGC INT</title>
+    <script src="file/js/change-theme.js"></script><!--change theme-->
+    <script src="file/js/choose-menu.js"></script><!--choose menu-->
+</head>
+<body id="body"><!--adaptive? what is adaptive? :)-->
+    <div style="float: left;width: 1330px;height: 80px;">
+        <h1 style="float: left;">CWGC INT</h1>
+    </div>
+    <div style="float: left;width: 1330px;height: 520px;">
+        <div style="overflow: auto;float: left;width: 210px;height: 520px;">
+            <h2>Menu</h2>
+            <ul>
+                <li><p><b onclick="home()">Home</b></p></li>
+                <li><p><b onclick="about()">About</b></p></li>
+            </ul>
+            <p><b>Christian Alliance</b></p>
+            <ul>
+                <li><p><b onclick="christian_alliance_history()">History</b></p></li>
+                <li><p><b onclick="christian_alliance_tree()">Tree</b></p></li>
+            </ul>
+            <p><b>CWGC</b></P>
+            <ul>
+                <li><p><b onclick="cwgc_history()">History</b></p></li>
+                <li><p><b onclick="cwgc_map()">Map</b></p></li>
+                <li><p><b onclick="cwgc_net()">Net</b></p></li>
+                <li><p><b onclick="cwgc_tree()">Tree</b></p></li>
+                <li><p><b onclick="cwgc_teacher()">Teacher</b></p></li>
+                <li><p><b onclick="cwgc_student()">Student</b></p></li>
+                <li><p><b onclick="cwgc_education()">Education</b></p></li>
+            </ul>
+        </div>
+        <iframe src="school/menu/home/home.html" frameborder="0" id="iframe" style="float: left;width: 900px;height: 520px;">
+        </iframe>
+        <div style="overflow: auto;float: left;width: 220px;height: 520px;">
+            <p>
+                <b>Theme</b>
+                <button onclick="theme_white()" style="width: 20px;height: 15px;background-color: white;"></button>
+                <button onclick="theme_yellow()" style="width: 20px;height: 15px;background-color: rgb(255, 255, 160);"></button>
+                <button onclick="theme_tan()" style="width: 20px;height: 15px;background-color: tan;"></button>
+                <button onclick="theme_thistle()" style="width: 20px;height: 15px;background-color: thistle;"></button>
+                <button onclick="theme_tomato()" style="width: 20px;height: 15px;background-color: tomato;"></button>
+                <button onclick="theme_grey()" style="width: 20px;height: 15px;background-color: grey;"></button>
+                <button onclick="theme_steelblue()" style="width: 20px;height: 15px;background-color: steelblue"></button>
+            </p>
+            <h2>Information</h2>
+        </div>
+    </div>
+</body>
+</html>
