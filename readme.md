@@ -92,4 +92,4 @@ Some OSINT is from internet(e.g [CWGC](http://www.cwgc.edu.hk/),[Wikipedia](http
 Build by ECAN-EB
 | Record      | Time                 |
 | :-----------| :--------------------|
-| Start build | 14/01/2022 21:00 UTF8 |
+| Start build | 14/01/2022 21:00 UTC+8 |
